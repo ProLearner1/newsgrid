@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Come and solve your financial problems by accounting it into the ledger and have a good life.">
+    <meta name="keywords" content="Money, Group, Social, Financial Problems">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>EdgeLedger</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="./mobie.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="title-with-icon">
+                <i class="fas fa-book-open  green-color" id="ledger-icon"></i>
+                <h1><span class="green-color">Edge</span>Ledger</h1>
+            </div>
+            <div class="navigation-menu">
+                <a href="#" class="nav-item">Home</a>
+                <a href="#" class="nav-item">What</a>
+                <a href="#" class="nav-item">Who</a>
+                <a href="#" class="nav-item">Contact</a>
+            </div>
+        </div>
+    </header>
+    <div id="showcase">
+        <div class="container-of-showcase">
+            <div id="main-info-box">
+                <h2>The Sky Is The Limit</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores suscipit vitae obcaecati aspernatur
+                    recusandae modi.</p>
+                <a id="read-more" href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <div id="motive">
+        <h2 id="what-to-do"><span class="green-color">What</span> We Do</h2>
+        <div id="motive-container">
+            <div id="actual-motive">
+                <i class="fas fa-university fa-3x icon-background"></i>
+                <div id="investment-information">
+                    <h3>Investment Banking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam unde rem doloribus aspernatur
+                        voluptas ab dolorem iste aperiam vero illo!</p>
+                </div>
+            </div>
+            <div id="actual-motive">
+                <i class="fas fa-layer-group fa-3x icon-background"></i>
+                <div id="porfolio-information">
+                    <h3>Portfolio Management</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, voluptatem nesciunt ab magni
+                        beatae, excepturi nam repellat dicta quod voluptas obcaecati!</p>
+
+                </div>
+            </div>
+            <div id="actual-motive">
+                <i class="fas fa-pen fa-3x icon-background"></i>
+                <div id="tax-and-custodial">
+                    <h3>Tax and Custodial</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum facere corrupti cumque aliquam
+                        quisquam vel, eum ex pariatur debitis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="who-are-we">
+        <img src="./img/people.jpg" alt="#" id="people">
+        <div id="actual-information">
+            <h2><span class="green-color">Who</span>We Are</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vero autem quod perferendis praesentium
+                corrupti consectetur, suscipit quia voluptatem placeat facilis earum aliquam. Nam corrupti alias
+                praesentium, dolor eum error iusto inventore dolores nulla nostrum rerum ipsum cumque unde doloribus!
+            </p>
+            <h2>Our Team</h2>
+            <h4>Vaskar Kulung: Conductor</h4>
+            <h4>Poonam Kulung: Beggar</h4>
+            <!-- <h4>Hemanta Kulung: Smoker</h4> -->
+            <h4>Spiderman: CEO</h4>
+            <h4>Jeff Bezos: Rich Man</h4>
+            <h4>Elon Musk: Controller</h4>
+        </div>
+    </div>
+    <div id="our-clients">
+        <h2>Our <span class="green-color">Clients</span></h2>
+        <div id="client-logo">
+            <img src="./img/logos/logo1.png" alt="" class="logo">
+            <img src="./img/logos/logo2.png" alt="" class="logo">
+            <img src="./img/logos/logo3.png" alt="" class="logo">
+            <img src="./img/logos/logo4.png" alt="" class="logo">
+            <img src="./img/logos/logo5.png" alt="" class="logo">
+
+        </div>
+    </div>
+    <div id="contact-and-location">
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <p>Please use the form below to contact us.</p>
+            <form action="sp.js">
+                <div id="name-form">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div id="email-form">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div id="phone-number">
+                    <label for="phone-number">Phone Number</label>
+                    <input type="number" name="phone-number" id="phone-number">
+                </div>
+                <div id="message-form">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="10" rows="10"></textarea>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="map" style="height: 200px;width: 200px;"></div>
+    <footer>
+        <p>Copyright &copy;, EdgeLedger, All Rights Reserved</p>
+    </footer>
+    <!-- <script>
+        let map;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: -34.397, lng: 150.644 },
+                zoom: 8,
+            });
+        }
+    </script> -->
+    <script src="./main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPtFmnCdVIWdNQ0eW54bPWxs2gJ5O86CU&callback=initMap"
+        async defer></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.container {
+    display:block;
+    text-align: center;
+}
+/* #title-with-icon {
+    display:block;
+}
+h1 {font-size: 12px;} */
+.navigation-menu {
+    justify-content: center;
+}
+#motive-container {
+    display:block;
+    /* margin-bottom: 200px; */
+    /* border:red 2px solid; */
+}
+#actual-motive {
+    margin-bottom: 17px;
+}
+#who-are-we {
+    height:450px;
+}
+#people {
+    display:none;
+}
+#contact-and-location{
+    display:block;
+}
